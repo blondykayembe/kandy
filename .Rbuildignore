@@ -1,7 +1,6 @@
 ^kandy\.Rproj$
 ^\.Rproj\.user$
 TrainingHeavyR.R
-^LICENSE\.md$
 ^\.github$
 ^README\.Rmd$
 ^_pkgdown\.yml$

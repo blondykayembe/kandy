@@ -13,7 +13,7 @@ Useful links:
 \itemize{
   \item \url{https://github.com/blondykayembe/kandy}
   \item \url{https://blondykayembe.github.io/kandy/}
-  \item Report bugs at \url{https://github.com/blondykayembe/kandy/issues !!!OVERTHROW !!!}
+  \item Report bugs at \url{https://github.com/blondykayembe/kandy/issues}
 }
 
 }
