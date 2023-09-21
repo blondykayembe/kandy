@@ -3,3 +3,4 @@
 TrainingHeavyR.R
 ^LICENSE\.md$
 ^\.github$
+^README\.Rmd$
