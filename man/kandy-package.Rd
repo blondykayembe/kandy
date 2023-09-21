@@ -8,6 +8,15 @@
 \description{
 What the package does (one paragraph).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/blondykayembe/kandy}
+  \item \url{https://blondykayembe.github.io/kandy/}
+  \item Report bugs at \url{https://github.com/blondykayembe/kandy/issues !!!OVERTHROW !!!}
+}
+
+}
 \author{
 \strong{Maintainer}: Blondy KM \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
