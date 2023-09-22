@@ -1,6 +1,7 @@
 #' @keywords internal
 #'
 #' @importFrom mvtnorm dmvnorm
+#' @importFrom future.apply future_sapply
 "_PACKAGE"
 
 ## usethis namespace: start
