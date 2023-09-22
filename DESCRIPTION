@@ -2,17 +2,22 @@ Package: kandy
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Blondy", "KM", , "first.last@example.com", role = c("aut", "cre"),
+    person("Blondy", "Kayembe Mulumba", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Imports: mvtnorm
-Depends:
+Imports: 
+    mvtnorm,
+    Rcpp,
+    future.apply
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/blondykayembe/kandy, https://blondykayembe.github.io/kandy/
 BugReports: https://github.com/blondykayembe/kandy/issues
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
