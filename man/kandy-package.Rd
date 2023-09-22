@@ -4,9 +4,9 @@
 \name{kandy-package}
 \alias{kandy}
 \alias{kandy-package}
-\title{kandy: What the Package Does (One Line, Title Case)}
+\title{kandy: Multivariate-Normal probability density function}
 \description{
-What the package does (one paragraph).
+A collection of function for computing the density for a multivariate Gaussian distibution. Several implementations are provided to examplify the different techniques for optimizing and accelerating R codes.
 }
 \seealso{
 Useful links:

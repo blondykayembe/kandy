@@ -1,10 +1,13 @@
 Package: kandy
-Title: What the Package Does (One Line, Title Case)
+Title: Multivariate-Normal probability density function
 Version: 0.0.0.9000
 Authors@R: 
     person("Blondy", "Kayembe Mulumba", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: A collection of function for computing the density for a 
+             multivariate Gaussian distibution. Several implementations are 
+             provided to examplify the different techniques for optimizing and 
+             accelerating R codes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

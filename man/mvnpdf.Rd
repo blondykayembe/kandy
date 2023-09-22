@@ -53,22 +53,25 @@ mvnpdfsmart_sleepy_par(
 \arguments{
 \item{M}{matrix}
 
-\item{x}{x is a matrix containing the observations in columns}
+\item{x}{x is a "p x n" data matrix with n the number of observations and
+p the number of dimensions}
 
 \item{mean}{mean vector of the multivariate gaussian distribution}
 
-\item{varcovM}{variance covariance matrix}
+\item{varcovM}{variance-covariance matrix}
 
-\item{Log}{logical parameter (default = True)}
+\item{Log}{logical flag for returning the log of the probability density
+function. Default is \code{TRUE}.}
 }
 \value{
-a list of values
+a list containing the input matrix x and y the multivariate-Normal probability density function
+computed at x
 }
 \description{
-description
+This is a concise description of what the function does.
 }
 \details{
-details
+This part gives more details on the function.
 }
 \examples{
 X = matrix(c(-0.5, 1.5, 0, 1, -1, 1), nrow = 2)

@@ -1,18 +1,20 @@
 ##package allowing to describe my package ==> roxygen2
 
-
-#' Title
+#' Multivariate-Normal probability density function
 #'
-#' description
+#' This is a concise description of what the function does.
 #'
-#' details
+#' This part gives more details on the function.
 #'
-#' @param x x is a matrix containing the observations in columns
+#' @param x x is a "p x n" data matrix with n the number of observations and
+#'p the number of dimensions
 #' @param mean mean vector of the multivariate gaussian distribution
-#' @param varcovM variance covariance matrix
-#' @param Log logical parameter (default = True)
+#' @param varcovM variance-covariance matrix
+#' @param Log logical flag for returning the log of the probability density
+#'function. Default is \code{TRUE}.
 #'
-#' @return a list of values
+#' @return a list containing the input matrix x and y the multivariate-Normal probability density function
+#' computed at x
 #'
 #' @export
 #'
